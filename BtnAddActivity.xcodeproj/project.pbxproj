@@ -15,6 +15,7 @@
 		FE525DCE2154947E0006D649 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE525DCD2154947E0006D649 /* main.m */; };
 		FE525DD82154947E0006D649 /* BtnAddActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE525DD72154947E0006D649 /* BtnAddActivityTests.m */; };
 		FE525DE32154947F0006D649 /* BtnAddActivityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE525DE22154947F0006D649 /* BtnAddActivityUITests.m */; };
+		FE525DF2215494980006D649 /* UIButton+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = FE525DF0215494980006D649 /* UIButton+Activity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FE525DDE2154947F0006D649 /* BtnAddActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BtnAddActivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE525DE22154947F0006D649 /* BtnAddActivityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BtnAddActivityUITests.m; sourceTree = "<group>"; };
 		FE525DE42154947F0006D649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE525DF0215494980006D649 /* UIButton+Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Activity.m"; sourceTree = "<group>"; };
+		FE525DF1215494980006D649 /* UIButton+Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Activity.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				FE525DBF2154947B0006D649 /* AppDelegate.m */,
 				FE525DC12154947B0006D649 /* ViewController.h */,
 				FE525DC22154947C0006D649 /* ViewController.m */,
+				FE525DF1215494980006D649 /* UIButton+Activity.h */,
+				FE525DF0215494980006D649 /* UIButton+Activity.m */,
 				FE525DC42154947C0006D649 /* Main.storyboard */,
 				FE525DC72154947E0006D649 /* Assets.xcassets */,
 				FE525DC92154947E0006D649 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE525DF2215494980006D649 /* UIButton+Activity.m in Sources */,
 				FE525DC32154947C0006D649 /* ViewController.m in Sources */,
 				FE525DCE2154947E0006D649 /* main.m in Sources */,
 				FE525DC02154947B0006D649 /* AppDelegate.m in Sources */,
